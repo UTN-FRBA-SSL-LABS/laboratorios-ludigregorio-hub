@@ -13,7 +13,7 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 RESET='\033[0m'
 
-check() {
+check(){
   local id="$1" desc="$2" pts="$3"
   shift 3
   if "$@" &>/dev/null; then
